@@ -86,8 +86,8 @@ p {
 
 .btn {
     text-align: center;
-    padding-bottom: 70px;
-    margin-right: 80px;
+    /* padding-bottom: 70px;
+    margin-right: 80px; */
 }
 
 button {
@@ -113,3 +113,5 @@ button {
 /* a:visited {
     color: green;
 } */
+
+/* 123 */
