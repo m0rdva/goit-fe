@@ -2,23 +2,40 @@
     width: 1200px;
 }
 
-.navigation.container {
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 0;
+    text-align: center;
+}
+
+.container {
     /* position: fixed; */
     display: inline-block;
-    width: 1200px;
+    text-align: center;
+    font-size: 0;
     background: white;
     
 }
 
+/* .navigation {
+    text-align: center;
+} */
+
 ul {
-    width: 600px;
+    display: inline-block;
     margin: 0 auto;
+    font-size: 0;
 }
 
 li {
-    margin: 70px 25px 33px 25px;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
+    margin: 77px 50px 35px 50px;
 }
 
 a {
@@ -36,25 +53,17 @@ a:hover {
     color: #03a9f4;
 }
 
-.post__sections {
-    width: 900px;
-}
-
 article {
     display: inline-block;
+    vertical-align: top;
+    text-align: left;
     width: 420px;
-    margin: 65px 30px 65px 30px;
-}
-
-.wrapper {
-    width: 420px;
-    margin: 0 auto;
-    padding: 0 90px;
-    float: left;
+    height: 477px;
+    margin: 69px 30px;
 }
 
 h2 {
-    width: 85px;
+    /* width: 85px; */
     height: 11px;
     color: #b4ad9e;
     font-family: Ubuntu;
@@ -64,7 +73,7 @@ h2 {
 }
 
 h3 {
-    width: 407px;
+    /* width: 407px; */
     height: 30px;
     color: #626262;
     font-family: "Playfair Display";
@@ -74,14 +83,15 @@ h3 {
 
 p {
     display: inline-block;
-    width: 414px;
+    /* width: 414px; */
+    text-align-last: left;
     height: 63px;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .btn {
@@ -107,3 +117,13 @@ button {
 /* a:visited {
     color: green;
 } */
+
+/*
+button {
+width: 164px;
+height: 60px;
+line-height: 24px;
+1) Текст кнопок может менять размер (смена языка, напрмер). Это значит что текст может стать длиннее - больше заданной ширины. Чтобы не писать новую верстку - не задавайте ширину. Задавайте paddin-left и padding-right от текста. Вот пример (вверху 2 кнопки с заданной шириной, внизу 2 кнопки с заданным padding) https://codepen.io/Gorbulin/pen/PrmOab
+
+2)Выравнивание текста (именно одной строки текста) по высоте:
+Выравнивание текста (именно одной строки текста) по высоте height и line-height должны быть равны , т.е. line-height: 60px;*/
