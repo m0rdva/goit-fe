@@ -1,10 +1,10 @@
 body {
-    width: 1200px;
+    width: 1600px;
     margin: 0;
 }
 
 .wrapper {
-    width: 1080px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ h2 {
 .product {
     display: inline-block;
     vertical-align: top;
-    margin: 5px;
+    margin: 15px;
     width: 250px;
     height: 320px;
     background-color: #e9f0fd;
@@ -104,8 +104,8 @@ h2 {
 
 .product__image {
     margin: 0;
-    height: 280px;
     width: 250px;
+    height: 280px;
 }
 
 img {
@@ -165,17 +165,17 @@ h3 {
     background-color: #323232;
 }
 
-.article {
-    width: 350px;
-    height: 495px;
-    display: inline-block;
-    float: left;
-    margin-top: 40px;
-    margin-bottom: auto;
+.articles {
+    padding-left: 20px;
 }
 
-.article:not(:last-child) {
-    margin-right: 30px;
+.article {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    width: 350px;
+    height: 495px;
+    margin: 40px 15px auto;
 }
 
 .article__image {
