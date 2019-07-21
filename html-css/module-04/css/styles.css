@@ -125,8 +125,8 @@ h2 {
     vertical-align: -250px;
 }
 
-.photo__3,
-.photo__8 {
+.product__image > .photo__3,
+.product__image > .photo__8 {
     vertical-align: -200px;
 }
 
