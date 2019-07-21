@@ -120,7 +120,7 @@ h2 {
     text-align: center;
 }
 
-img {
+.product__image > img {
     display: inline-block;
     vertical-align: -250px;
 }
