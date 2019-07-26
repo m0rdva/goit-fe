@@ -72,13 +72,25 @@ main {
     color: #1abc9c;
 }
 
+.slide {
+    position: relative;
+}
 
-
-.slide::after {
+.slide_layer {
+    position: absolute;
+    z-index: 1;
     width: 1717px;
     height: 600px;
     background-color: #000002;
     opacity: 0.52;
+}
+
+.rectangle {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    background-color: #4ec6ab;
+    opacity: 0.65;
 }
 
 h2 {
@@ -126,6 +138,7 @@ h2 {
 
 .cart {
     position: absolute;
+    display: none;
     z-index: 1;
     width: 250px;
     height: 280px;
@@ -169,6 +182,10 @@ h2 {
     font-weight: 400;
     letter-spacing: -0.36px;
     text-transform: uppercase;
+}
+
+.product:hover .cart {
+    display: block;
 }
 
 .product:hover .name {
