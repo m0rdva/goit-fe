@@ -72,7 +72,9 @@ main {
     color: #1abc9c;
 }
 
-.slide::before {
+
+
+.slide::after {
     width: 1717px;
     height: 600px;
     background-color: #000002;
@@ -114,11 +116,23 @@ h2 {
 }
 
 .product__image {
+    position: relative;
     margin: 0;
     width: 250px;
     height: 280px;
     overflow: hidden;
     object-fit: cover;
+}
+
+.cart {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    height: 280px;
+    box-sizing: border-box;
+    border: 10px solid #ffffff;
+    opacity: 0.55;
+    background-color: #000000;
 }
 
 .name {
@@ -160,6 +174,7 @@ h2 {
 .product:hover .name {
     background-color: #1abc9c;
 }
+
 .product:hover .price {
     background-color: #1abc9c;
     opacity: 0.44;
