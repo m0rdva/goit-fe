@@ -15,12 +15,26 @@ main {
     background-color: #e9f0fd;
 }
 
+
+.container-fluid--cards {
+    min-height: 676px;
+    background-color: #e9f0fd; 
+} 
+
 .container {
     display: inline-block;
     text-align: center;
     width: 1111px;
+    max-width: 1111px; 
+    margin: auto;
     background: white;
     padding: 0;
+}
+
+.navigation::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .logo {
@@ -172,10 +186,15 @@ h2 {
 .product {
     display: inline-block;
     vertical-align: top;
-    margin: 15px 15px 100px;
+    margin-top: 15px;
+    margin-bottom: 100px;
     width: 250px;
     height: 320px;
     background-color: #ffffff;
+}
+
+.product:not(:last-of-type) {
+    margin-right: 30px;
 }
 
 .product__image {
@@ -285,6 +304,12 @@ h2 {
     transform: translateX(-50%);
 }
 
+.basket::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .product:hover .basket {
     display: block;
 }
@@ -351,6 +376,12 @@ h2 {
 .product:hover .price {
     background-color: #1abc9c;
     opacity: 0.44;
+}
+
+.product::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 h3 {
