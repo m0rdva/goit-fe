@@ -24,7 +24,6 @@ main {
 }
 
 .logo {
-    display: inline-block;
     float: left;
     margin: 32px 0;
     vertical-align: top;
@@ -51,7 +50,6 @@ main {
 }
 
 .nav__menu {
-    display: inline-block;
     float: right;
     vertical-align: top;
     margin: 41px 0 42px 15px;
@@ -76,6 +74,36 @@ main {
     position: relative;
 }
 
+.slide_title {
+    z-index: 2;
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 1;
+    text-align: left;
+}
+
+.slide_title h1 {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Roboto - Black", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 82px;
+}
+
+.slide_title span {
+    color: #ffffff;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 250;
+    font-size: 24px;
+    letter-spacing: -0.48px;
+    line-height: 54px;
+}
+
 .slide_layer {
     position: absolute;
     width: 1650px;
@@ -87,16 +115,27 @@ main {
 }
 
 .rectangle {
+    z-index: 2;
     width: 104px;
     height: 104px;
     background-color: #4ec6ab;
     opacity: 0.65;
 }
 
+.rectangle:hover {
+    opacity: 1;
+}
+
 .rectangle.rct_left {
     position: absolute;
     top: 225px;
     left: 250px;
+}
+
+.rectangle img {
+    padding-top: 30%;
+    height: 38px;
+    width: 32px;
 }
 
 .rectangle.rct_right {
@@ -160,6 +199,117 @@ h2 {
     background-color: #000000;
 }
 
+.product:hover .cart {
+    display: block;
+}
+
+.heart {
+    z-index: 2;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 85px;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.product:hover .heart {
+    display: block;
+}
+
+.heart:hover {
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+}
+
+.heart__image,
+.arrows__image,
+.time__image {
+    padding-top: 10px;
+}
+
+.arrows {
+    z-index: 2;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product:hover .arrows {
+    display: block;
+}
+
+.arrows:hover {
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+}
+
+.time {
+    z-index: 2;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 85px;
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+.product:hover .time {
+    display: block;
+}
+
+.time:hover {
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+}
+
+.basket{
+    z-index: 2;
+    display: none;
+    position: absolute;
+    bottom: 85px;
+    left: 50%;
+    width: 175px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: #323232;
+    transform: translateX(-50%);
+}
+
+.product:hover .basket {
+    display: block;
+}
+
+.basket:hover {
+    background-color: #1abc9c;
+}
+
+.basket__image {
+    float: left;
+    padding: 10px;
+}
+
+.add__cart {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: -0.28px;
+    float: right;
+    padding: 10px 20px 0 0;
+}
+
 .name {
     width: 187px;
     height: 40px;
@@ -167,7 +317,6 @@ h2 {
     padding-left: 13px;
     background-color: #323232;
     line-height: 40px;
-    display: inline-block;
     float: left;
     vertical-align: top;
     text-align: left;
@@ -178,6 +327,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.product:hover .name {
+    background-color: #1abc9c;
+}
+
 .price {
     width: 50px;
     height: 40px;
@@ -185,7 +338,6 @@ h2 {
     background-color: #323232;
     color: white;
     opacity: 0.44;
-    display: inline-block;
     float: right;
     text-align: center;
     vertical-align: top;
@@ -194,14 +346,6 @@ h2 {
     font-weight: 400;
     letter-spacing: -0.36px;
     text-transform: uppercase;
-}
-
-.product:hover .cart {
-    display: block;
-}
-
-.product:hover .name {
-    background-color: #1abc9c;
 }
 
 .product:hover .price {
