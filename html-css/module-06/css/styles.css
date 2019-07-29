@@ -1,0 +1,106 @@
+.navigation {
+    display: flex;
+    margin: 14px 0 56px;
+    width: 1210px;
+    max-width: 1210px;
+    height: 38px;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-left: 10px;
+    text-decoration: none;
+    color:#95E1D3;
+    font-family: Montserrat-Bold, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size:30px;
+  }
+  
+  .nav_menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    width: 491px;
+    height: 26px;
+  }
+  
+  .menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#95E1D3;
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size:14px;
+  }
+  
+  .menu:not(:first-of-type) {
+    padding-left: 55px;
+  }
+  
+  .menu:hover {
+    color: #F38181;
+  }
+  
+  .menu::after {
+    display: none;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #F38181;
+    margin-top: 6px;
+  }
+  
+  .menu:hover::after {
+    display: flex;
+  }
+  
+  .main {
+    width: 1210px;
+    max-width: 1210px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .title_top {
+    margin: 0 0 11px;
+    color:#333333;
+    font-family: KaushanScript-Regular, sans-serif;
+    font-size:24px;
+  }
+  
+  .title_main {
+    margin: 0 0 34px;
+    color:#333333;
+    font-family: Montserrat, sans-serif;
+    font-size:30px;
+  }
+  
+  .title_main::after {
+    display: flex;
+    margin-top: 21px;
+    content: "";
+    width: 64px;
+    height: 4px;
+    background-color: #F38181;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service_card {
+    margin: 0 0 50px;
+    width: 318px;
+    height: 70px;
+    background-color: lightblue;
+  }
+  
+  .description {
+    color: #999999;
+    font-family: Roboto-Regular, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 15px;
+  }
