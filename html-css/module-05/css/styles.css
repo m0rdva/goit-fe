@@ -1,8 +1,4 @@
 
-.wrapper {
-    width: 1650px;
-    margin: 0 auto;
-}
 
 header {
     text-align: center;
@@ -16,7 +12,7 @@ main {
 }
 
 
-.container-fluid--cards {
+.container-fluid--main {
     min-height: 676px;
     background-color: #e9f0fd; 
 } 
@@ -86,6 +82,10 @@ main {
 
 .slide {
     position: relative;
+    object-fit: cover;
+}
+
+.slide__image {
 }
 
 .slide_title {
