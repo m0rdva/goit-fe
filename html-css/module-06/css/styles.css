@@ -64,15 +64,17 @@
   .title_top {
     margin: 0 0 11px;
     color:#333333;
-    font-family: KaushanScript-Regular, sans-serif;
+    font-family: 'Kaushan Script', cursive, sans-serif;
     font-size:24px;
   }
   
   .title_main {
     margin: 0 0 34px;
     color:#333333;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
   
   .title_main::after {
