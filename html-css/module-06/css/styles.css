@@ -144,7 +144,7 @@
 
   .team {
     display: flex;
-    margin-bottom: 82px;
+    margin-bottom: 122px;
     justify-content: space-around;
   }
 
@@ -250,4 +250,55 @@
     font-size: 15px;
     font-style: italic;
     font-weight: lighter;
+  }
+
+  .footer {
+    width: 1210px;
+    max-width: 1210px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .copyright {
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+  
+  .developer_link {
+    color: #F38181;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .fake_input {
+    display: flex;
+  }
+  
+  .email {
+    width: 220px;
+    height: 31px;
+    padding: 8px 0 0 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 15px;
+    color: #cccccc;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .subscribe {
+    width: 151px;
+    height: 41px;
+    color: #FFFFFF;
+    background: #95E1D3;
+    text-transform: uppercase;
+    border: none;
   }
