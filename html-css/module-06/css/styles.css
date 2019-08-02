@@ -3,9 +3,13 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  margin: auto;
+}
+
 .navigation {
     display: flex;
-    margin: 14px 0 125px;
+    margin-bottom: 125px;
     width: 1210px;
     max-width: 1210px;
     height: 38px;
