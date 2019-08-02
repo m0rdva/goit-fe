@@ -264,7 +264,7 @@ body {
   .footer {
     width: 1210px;
     max-width: 1210px;
-    margin-top: 10px;
+    margin: 10px auto 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
