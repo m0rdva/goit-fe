@@ -24,7 +24,7 @@ main {
 .container {
     display: inline-block;
     text-align: center;
-    max-width: 1111px; 
+    width: 100%; 
     margin: auto;
     background: white;
     padding: 0;
@@ -37,6 +37,7 @@ main {
 }
 
 .navigation {
+    text-align: center;
     max-width: 1111px;
 }
 
@@ -412,6 +413,12 @@ h3 {
     height: 40px;
     background-color: #323232;
 }
+
+.container-fluid--footer {
+    text-align: center;
+    max-width: 1111px;
+}
+
 
 .footer {
     padding-top: 38px;
