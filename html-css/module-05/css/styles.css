@@ -1,19 +1,21 @@
 
 
 header {
+    margin: auto;
     text-align: center;
-    width: 100%;
+    max-width: 1111px;
 }
 
 main {
     text-align: center;
-    width: 100%;
+    margin: auto;
+    max-width: 1111px;
     background-color: #e9f0fd;
 }
 
 
 .container-fluid--main {
-    width: 1111px;
+    margin: auto;
     max-width: 1111px; 
     min-height: 676px;
     background-color: #e9f0fd; 
@@ -22,12 +24,20 @@ main {
 .container {
     display: inline-block;
     text-align: center;
-    width: 1111px;
     max-width: 1111px; 
     margin: auto;
     background: white;
     padding: 0;
     background-color: transparent;
+}
+
+.container-fluid {
+    margin: auto;
+    max-width: 1111px;
+}
+
+.navigation {
+    max-width: 1111px;
 }
 
 .navigation::after {
