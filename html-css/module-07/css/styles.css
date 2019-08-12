@@ -1,0 +1,123 @@
+.container {
+    max-width: 934px;
+    margin: 0 auto;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 90px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #FED136;
+    font-family: "Wisdom", sans-serif;
+    font-size: 26px;
+  }
+  
+  .nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+  }
+  
+  .menu {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  
+  .menu:hover {
+    color: #FED136;
+    transition: 0.2s;
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .title_name {
+    margin: 0;
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+  
+  .title_description {
+    margin: 0;
+    color: #777777;
+    font-family: "Droid Serif", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  
+  .service_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 274px;
+    height: 174px;
+  }
+  
+  .label {
+    margin: 0;
+    background: #ffffff url("") no-repeat center;
+    width: 68px;
+    height: 68px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+  }
+  
+  .card_title {
+    margin: 0;
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .card_description {
+    margin: 0;
+    width: 100%;
+    height: 57px;
+    color: #777777;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .footer {
+    padding-top: 110px;
+    height: 566px;
+    background: #222222 url("") no-repeat top right;
+  }
+  
+  .footer_title {
+    color: #ffffff;
+  }
+  
+  
+  
