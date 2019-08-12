@@ -84,11 +84,22 @@
   
   .label {
     margin: 0;
-    background: #ffffff url("") no-repeat center;
     width: 68px;
     height: 68px;
     border: 3px solid #fed136;
     border-radius: 50%;
+  }
+  
+  .label_cart {
+    background: #ffffff url("../img/Icon-Basket.png") no-repeat center;
+  }
+
+  .label_web {
+    background: #ffffff url("../img/Icon-Laptop.png") no-repeat center;
+  }
+
+  .label_lock {
+    background: #ffffff url("../img/Icon-Locked.png") no-repeat center;
   }
   
   .card_title {
@@ -112,7 +123,7 @@
   .footer {
     padding-top: 110px;
     height: 566px;
-    background: #222222 url("") no-repeat top right;
+    background: #222222 url("../img/Map_Image.png") no-repeat bottom right;
   }
   
   .footer_title {
