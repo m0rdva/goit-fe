@@ -1,5 +1,5 @@
 .container {
-    max-width: 934px;
+    max-width: 940px;
     margin: 0 auto;
   }
   
@@ -12,6 +12,7 @@
   }
   
   .logo {
+    margin-left: 6px;
     text-decoration: none;
     color: #FED136;
     font-family: "Wisdom", sans-serif;
@@ -121,14 +122,81 @@
   }
   
   .footer {
+    max-width: 100%;
     padding-top: 110px;
-    height: 566px;
+    height: 566px; 
+    /* 566px; */
     background: #222222 url("../img/Map_Image.png") no-repeat bottom right;
   }
   
   .footer_title {
     color: #ffffff;
   }
+
+  .contact_form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 940px;
+    height: 307px;
+  }
   
+  .contact_field {
+    max-width: 485px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  input {
+    width: 455px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin: 15px 30px 15px 0;
+    padding: 20px;
+    font-size: 14px;
+    color: #bbbbbb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.35px;
+  }
+  
+  input:valid {
+    outline-color: green;
+  }
+  
+  input:invalid {
+    outline-solor: red;
+  }
+  
+  .message_field {
+    margin: 15px 0;
+    padding: 20px;
+    width: 455px;
+    height: 210px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 14px;
+    color: #bbbbbb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.35px;
+  }
+  
+  .submit {
+    margin: 0 15px;
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+  }
   
   
