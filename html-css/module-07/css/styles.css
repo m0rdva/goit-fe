@@ -15,7 +15,7 @@
     margin-left: 6px;
     text-decoration: none;
     color: #FED136;
-    font-family: "Wisdom", sans-serif;
+    font-family: "Wisdom - Script", sans-serif;
     font-size: 26px;
   }
   
@@ -159,19 +159,20 @@
     margin: 15px 30px 15px 0;
     padding: 20px;
     font-size: 14px;
-    color: #bbbbbb;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.35px;
   }
   
-  input:valid {
+  input:valid,
+  textarea:valid {
     outline-color: green;
   }
   
-  input:invalid {
-    outline-solor: red;
+  input:invalid,
+  textarea:invalid {
+    outline-color: red;
   }
   
   .message_field {
@@ -183,7 +184,6 @@
     box-sizing: border-box;
     resize: none;
     font-size: 14px;
-    color: #bbbbbb;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
