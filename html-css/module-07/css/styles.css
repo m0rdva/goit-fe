@@ -1,8 +1,27 @@
+
 .container {
     max-width: 940px;
     margin: 0 auto;
   }
   
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+   font-family: 'Roboto Slab';
+   src: url("../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff2");
+
+}
+
+@font-face {
+    font-family: 'Clicker Script';
+    src: url("../fonts/clicker-script-v7-latin/clicker-script-v7-latin-regular.woff2");
+    font-weight: 400;
+}
+
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -15,7 +34,7 @@
     margin-left: 6px;
     text-decoration: none;
     color: #FED136;
-    font-family: "Wisdom - Script", sans-serif;
+    font-family: "Clicker Script", sans-serif;
     font-size: 26px;
   }
   
@@ -62,7 +81,7 @@
   .title_description {
     margin: 0;
     color: #777777;
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Roboto Slab", serif;
     font-size: 16px;
     font-style: italic;
   }
@@ -124,8 +143,7 @@
   .footer {
     max-width: 100%;
     padding-top: 110px;
-    height: 566px; 
-    /* 566px; */
+    height: 566px;
     background: #222222 url("../img/Map_Image.png") no-repeat bottom right;
   }
   
