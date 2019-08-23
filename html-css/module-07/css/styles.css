@@ -1,26 +1,26 @@
 
-.container {
+  .container {
     max-width: 940px;
     margin: 0 auto;
   }
   
-@font-face {
+  @font-face {
     font-family: 'Montserrat';
-    src: url("../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2");
+    src: url("../fonts/montserrat-v14-latin/ montserrat-v14-latin-regular.woff2");
     font-weight: 400;
-}
+  }
 
-@font-face {
-   font-family: 'Roboto Slab';
-   src: url("../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff2");
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url("../fonts/roboto-slab-v9-latin/ roboto-slab-v9-latin-regular.woff2");
 
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: 'Clicker Script';
-    src: url("../fonts/clicker-script-v7-latin/clicker-script-v7-latin-regular.woff2");
+    src: url("../fonts/clicker-script-v7-latin/ clicker-script-v7-latin-regular.woff2");
     font-weight: 400;
-}
+  }
 
   .navigation {
     display: flex;
@@ -181,16 +181,24 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.35px;
+    outline: 4px solid transparent;
+    outline-offset: -2px;
+    transition: outline-color 0.1s;
   }
   
-  input:valid,
-  textarea:valid {
-    outline-color: green;
-  }
-  
-  input:invalid,
-  textarea:invalid {
+  input[type="email"]:focus:invalid,
+  textarea[name="message"]:focus:invalid,
+  input[name="name"]:focus:invalid {
     outline-color: red;
+    transition: outline-color 5s;
+  }
+
+  input[type="email"]:focus:valid,
+  textarea[name="message"]:focus:valid,
+  input[name="name"]:focus:valid,
+  input[name="subject"] {
+    outline-color: green;
+    transition: outline-color .4s;
   }
   
   .message_field {
@@ -206,6 +214,9 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.35px;
+    outline: 4px solid transparent;
+    outline-offset: -2px;
+    transition: outline-color 0.1s;
   }
   
   .submit {

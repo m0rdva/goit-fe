@@ -8,15 +8,16 @@ header {
 
 main {
     text-align: center;
-    margin: auto;
-    max-width: 1111px;
+    margin: 0 auto;
+    max-width: 100%;
     background-color: #e9f0fd;
 }
 
 
 .container-fluid--main {
     margin: auto;
-    max-width: 1111px; 
+    /* max-width: 1111px;  */
+    max-width: 100%;
     min-height: 676px;
     background-color: #e9f0fd; 
 } 
@@ -33,7 +34,7 @@ main {
 
 .container-fluid {
     margin: auto;
-    max-width: 1111px;
+    max-width: 100%;
 }
 
 .navigation {
@@ -96,16 +97,16 @@ main {
 
 .slide {
     position: relative;
-    width: 1111px;
-    max-width: 1111px; 
+    /* width: 1111px; */
+    max-width: 100%; 
     object-fit: cover;
 }
 
 .slide__image {
     height: 600px;
-    width: 1111px;
+    width: 100%;
     background: #e9f0fd url("../img/slide4.png") no-repeat center center;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .slide_title {
