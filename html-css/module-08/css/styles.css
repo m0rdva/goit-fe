@@ -3,14 +3,17 @@
     flex-direction: column;
     text-align: center;
     max-width: 320px;
-    background: linear-gradient(to top, #ff5f6d, #ffc371);
+  }
+
+  .header {
+    background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object.png') center no-repeat;
   }
   
   .registration {
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 90px;
+    justify-content: center;
+    margin-bottom: 105px;
   }
   
   .registration > a {
@@ -20,7 +23,7 @@
     width: 90px;
     line-height: 36px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 900;
     border: 2px solid transparent;
     border-radius: 25px;
     box-sizing: border-box;
@@ -33,7 +36,11 @@
   }
   
   .registration > a::first-letter {
-      text-transform: capitalize;
+    text-transform: capitalize;
+  }
+
+  .logo {
+    margin-bottom: 18px;
   }
   
   .logo__link {
@@ -41,15 +48,19 @@
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
   }
   
+  .title {
+    margin-bottom: 135px;
+  }
+
   .title__name {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
   }
   
@@ -57,11 +68,9 @@
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 300;
   }
   
   .title__button {
-    margin-bottom: 138px;
     width: 280px;
     height: 40px;
     color: #ffffff;
