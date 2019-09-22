@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     max-width: 320px;
   }
 
@@ -10,10 +12,10 @@
   }
   
   .registration {
-    margin-top: 25px;
+    margin-top: 24px;
     display: flex;
     justify-content: center;
-    margin-bottom: 105px;
+    margin-bottom: 115px;
   }
   
   .registration > a {
@@ -43,7 +45,7 @@
     margin-bottom: 18px;
   }
   
-  .logo__link {
+  .logo-link {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -52,11 +54,19 @@
     text-transform: uppercase;
   }
   
-  .title {
-    margin-bottom: 135px;
+  .header_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 125px;
+
   }
 
-  .title__name {
+  .header_title-name {
+    margin: 0;
+    margin-bottom: 19px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -64,13 +74,16 @@
     text-transform: uppercase;
   }
   
-  .title__description {
+  .header_title-description {
+    margin: 0;
+    margin-bottom: 19px;
+    width: 220px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
   }
   
-  .title__button {
+  .header_title-button {
     width: 280px;
     height: 40px;
     color: #ffffff;
@@ -80,5 +93,101 @@
     background-color: #ff4e50;
     border-radius: 25px;
     border: none;
+    box-sizing: border-box;
+  }
+
+  .main_title-name {
+    width: 258px;
+    margin-top: 69px;
+    margin-bottom: 15px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+  }
+
+  .partners-profile {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-bottom: 29px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .partners-profile_photo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+  .photo__1 {
+    background: url("../img/Layer_6.png");
+}
+
+  .photo__2 {
+    background: url("../img/Layer_8.png");
+}
+
+  .photo__3 {
+    background: url("../img/Layer_7.png");
+}
+
+  .photo__4 {
+    background: url("../img/Layer_10.png");
+}
+
+  .partners-profile_photo--label {
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.photo__1--label {
+    background: #ff4e50 url("../img/Shape_128.png") center no-repeat;
+  }
+  
+.photo__2--label {
+    background: #ffa507 url("../img/Shape_155.png") center no-repeat;
+  }
+  
+.photo__3--label {
+    background: #1cd7ad url("../img/Shape_153.png") center no-repeat;
+  }
+  
+.photo__4--label {
+    background: #4e73db url("../img/Shape_170.png") center no-repeat;
+  }
+  
+  .partners-profile_name {
+    height: 14px;
+    margin-bottom: 16px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: bold;
+  }
+  
+  .partners-profile_info {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+
+  .partners_button {
+    width: 280px;
+    height: 40px;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 25px;
     box-sizing: border-box;
   }
