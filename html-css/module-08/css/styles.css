@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    max-width: 320px;
+    width: 320px;
   }
 
   .header {
@@ -180,6 +180,7 @@
   }
 
   .partners_button {
+    margin-bottom: 15px;
     width: 280px;
     height: 40px;
     color: #ff4e50;
@@ -190,4 +191,49 @@
     background-color: #ffffff;
     border-radius: 25px;
     box-sizing: border-box;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+        min-width: 768px;
+    }
+
+    .header {
+        height: 700px;
+        flex-direction: row;
+        justify-content: space-between;
+        background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object_B.png') center no-repeat;
+      }
+    
+    .registration {
+        /* margin-top: 38px;
+        margin-right: 40px; */
+        align-self: flex-start;
+        order: 3;
+    }
+    
+    .logo {
+        /* margin-top: 46px;
+        margin-left: 40px; */
+        align-self: flex-start;
+    }
+
+    .header_title-name {
+        font-size: 20px;
+        /* width: 477px; */
+    }
+
+    .main_title-name {
+        width: 401px;
+        margin-bottom: 32px;
+    }
+
+    .partners {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 39px;
+    }
   }
