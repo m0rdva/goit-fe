@@ -1,4 +1,29 @@
 .container {
+  margin: 0 -0.5rem;
+  ;
+}
+
+.logo {
+  background-color: rgb(156, 161, 110);
+  text-align: center;
+}
+
+.registration {
+  background-color: beige;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .registration {
+    text-align: left;
+  }
+  
+  .logo {
+    text-align: right;
+  }
+}
+
+/* .container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -95,9 +120,11 @@
     border-radius: 25px;
     border: none;
     box-sizing: border-box;
-  }
+  } */
 
-  .main_title-name {
+  /* ---------------------------------------------- */
+
+  /* .main_title-name {
     width: 258px;
     margin-top: 69px;
     margin-bottom: 15px;
@@ -286,4 +313,4 @@
         margin-bottom: 73px;
     }
  
-  }
+  } */
