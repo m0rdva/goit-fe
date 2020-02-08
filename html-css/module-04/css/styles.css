@@ -168,14 +168,6 @@ main {
     opacity: 0.44;
 }
 
-h3 {
-    display: inline-block;
-    vertical-align: bottom;
-    width: 250px;
-    height: 40px;
-    background-color: #323232;
-}
-
 .articles {
     padding-left: 35px;
 }
