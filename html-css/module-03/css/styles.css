@@ -19,8 +19,7 @@
 }    
 
 .nav__menu {
-    padding: 0;
-    margin: 77px auto 104px;
+    padding: 77px 0 104px;
 }
 
 .menu__item {
@@ -35,6 +34,7 @@
 }
 
 .nav__link {
+    display: block;
     color: #626262;
     font-family: Playfair Display, sans-serif;
     font-size: 14px;
@@ -54,6 +54,7 @@
 
 .post__section {
     padding: 0;
+    padding-bottom: 70px;
   }
   
   .post__item {
@@ -75,6 +76,7 @@
   
   .post__item--title {
       height: 14px;
+      margin: 0;
       margin-bottom: 28px;
       color: #b4ad9e;
       font-family: Ubuntu, sans-serif;
@@ -85,6 +87,7 @@
   
   .post__item--description {
       height: 30px;
+      margin: 0;
       margin-bottom: 34px;
       color: #626262;
       font-family: Playfair Display, sans-serif;
@@ -113,7 +116,6 @@
       background: transparent;
       width: 164px;
       height: 60px;
-      margin-bottom: 70px;
       padding: 1rem 2rem;
       color: #626262;
       font-family: Playfair Display, sans-serif;
