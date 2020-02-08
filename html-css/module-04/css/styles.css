@@ -21,6 +21,8 @@ header {
     clear: both;
 }
 
+/* HEADER - START */
+
 .logo {
     display: inline-block;
     float: left;
@@ -73,6 +75,10 @@ header {
 .nav__menu:focus {
     color: #1abc9c;
 }
+
+/* HEADER - END */
+
+/* MAIN - START */
 
 main {
     text-align: center;
@@ -229,7 +235,7 @@ main {
     overflow: hidden;
 }
 
-button {
+.btn {
     width: 160px;
     height: 51px;
     margin-top: 16px;
@@ -242,3 +248,9 @@ button {
     font-weight: 300;
     letter-spacing: -0.32px;
 }
+
+.btn:hover {
+    background-color: #42af98;
+}
+
+/* MAIN - END */
