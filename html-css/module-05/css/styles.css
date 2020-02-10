@@ -3,13 +3,13 @@
 header {
     margin: auto;
     text-align: center;
-    max-width: 1111px;
+    /* max-width: 1111px; */
 }
 
 main {
     text-align: center;
-    margin: 0 auto;
-    max-width: 100%;
+    margin: auto;
+    /* max-width: 1111px; */
     background-color: #e9f0fd;
 }
 
@@ -23,6 +23,7 @@ main {
 } 
 
 .container {
+    margin: 0 auto;
     display: inline-block;
     text-align: center;
     width: 100%; 
@@ -33,14 +34,14 @@ main {
 }
 
 .container-fluid {
-    margin: auto;
-    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1111px;
 }
 
 .navigation {
-    text-align: center;
     max-width: 1111px;
 }
+
 
 .navigation::after {
     content: "";
@@ -407,17 +408,18 @@ h2 {
     clear: both;
 }
 
-h3 {
+/* h3 {
     display: inline-block;
     vertical-align: bottom;
     width: 250px;
     height: 40px;
     background-color: #323232;
-}
+} */
 
 .container-fluid--footer {
     text-align: center;
-    max-width: 1111px;
+    /* max-width: 1111px; */
+    max-width: 100%;
 }
 
 
