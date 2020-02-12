@@ -1,316 +1,67 @@
-.container {
-  margin: 0 -0.5rem;
-  ;
+
+/* HEADER */
+
+header { 
+ min-height: 540px;
+ background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object.png') center 100% no-repeat;
+ background-size: cover;
 }
+
+/* LOGO */
 
 .logo {
-  background-color: rgb(156, 161, 110);
-  text-align: center;
+/*   background-color: lightgrey; */
 }
+
+.logo__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  }
+
+/* REGISTRATION */
 
 .registration {
-  background-color: beige;
+/*   background-color: grey; */
+}
+
+.registration__link {
   text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  width: 74px;
+  line-height: 36px;
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  box-sizing: border-box;
+  transition: .2s;
 }
 
-@media (min-width: 768px) {
-  .registration {
-    text-align: left;
+.registration__link:hover {
+  border: 2px solid #ffffff;
+  transition: .2s;
+  text-decoration: none;
+  color: white;
   }
   
-  .logo {
-    text-align: right;
-  }
-}
-
-/* .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 320px;
-  }
-
-  .header {
-    background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object.png') center no-repeat;
-  }
-  
-  .registration {
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 115px;
-  }
-  
-  .registration > a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    width: 90px;
-    line-height: 36px;
-    font-size: 14px;
-    font-weight: 900;
-    border: 2px solid transparent;
-    border-radius: 25px;
-    box-sizing: border-box;
-    transition: .2s;
-  }
-  
-  .registration > a:hover {
-    border: 2px solid #ffffff;
-    transition: .2s;
-  }
-  
-  .registration > a::first-letter {
+.registration__link::first-letter {
     text-transform: capitalize;
   }
 
-  .logo {
-    margin-bottom: 18px;
-  }
-  
-  .logo-link {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    text-transform: uppercase;
-  }
-  
-  .header_title {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 125px;
+/* /HEADER */
 
-  }
-
-  .header_title-name {
-    margin: 0;
-    margin-bottom: 19px;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 900;
-    text-transform: uppercase;
-  }
-  
-  .header_title-description {
-    margin: 0;
-    margin-bottom: 19px;
-    width: 220px;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-  }
-  
-  .header_title-button {
-    width: 280px;
-    height: 40px;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: none;
-    background-color: #ff4e50;
-    border-radius: 25px;
-    border: none;
-    box-sizing: border-box;
-  } */
-
-  /* ---------------------------------------------- */
-
-  /* .main_title-name {
-    width: 258px;
-    margin-top: 69px;
-    margin-bottom: 15px;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-  }
-
-  .partners-profile {
-    display: flex;
-    flex-direction: column;
-    width: 220px;
-    margin-bottom: 29px;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .partners-profile_photo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    margin-bottom: 20px;
-}
-
-  .photo__1 {
-    background: url("../img/Layer_6.png");
-}
-
-  .photo__2 {
-    background: url("../img/Layer_8.png");
-}
-
-  .photo__3 {
-    background: url("../img/Layer_7.png");
-}
-
-  .photo__4 {
-    background: url("../img/Layer_10.png");
-}
-
-  .partners-profile_photo--label {
-    width: 33px;
-    height: 33px;
-    box-sizing: border-box;
-    border: 4px solid white;
-    border-radius: 50%;
-}
-
-.photo__1--label {
-    background: #ff4e50 url("../img/Shape_128.png") center no-repeat;
-  }
-  
-.photo__2--label {
-    background: #ffa507 url("../img/Shape_155.png") center no-repeat;
-  }
-  
-.photo__3--label {
-    background: #1cd7ad url("../img/Shape_153.png") center no-repeat;
-  }
-  
-.photo__4--label {
-    background: #4e73db url("../img/Shape_170.png") center no-repeat;
-  }
-  
-  .partners-profile_name {
-    height: 14px;
-    margin-bottom: 16px;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-style: bold;
-  }
-  
-  .partners-profile_info {
-    color: #666666;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-  }
-
-  .partners_button {
-    margin-bottom: 15px;
-    width: 280px;
-    height: 40px;
-    color: #ff4e50;
-    border: 2px solid #ff4e50;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #ffffff;
-    border-radius: 25px;
-    box-sizing: border-box;
-  }
-
-  @media (min-width: 768px) {
-    .container {
-        width: 100%;
-        min-width: 768px;
-    }
-
-    .header {
+@media (min-width: 768px) {
+  header {
         height: 700px;
-        justify-content: flex-start;
-        background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object_B.png') center no-repeat;
-      }
-
-    .wrapper {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin-bottom: 112px;
-    }
-
-    .logo {
-        margin: 46px 40px;
-    }
-
-    .registration {
-        margin: 38px 40px;
-    }
-
-    .header_title {
-        align-self: center;
-        margin: 0;
-    }
-
-    .header_title-name {
-        font-size: 52px;
-        width: 477px;
-        margin-bottom: 40px;
-    }
-
-    .header_title-description {
-        width: 411px;
-        line-height: 24px;
-        margin-bottom: 34px;
-        font-size: 24px;
-        font-weight: lighter;
-    }
-
-    .header_title-button {
-        width: 226px;
-    }
-
-    .main_title-name {
-        width: 401px;
-        margin-bottom: 32px;
-    }
-
-    .partners {
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
-        margin-bottom: 39px;
-    }
   }
+}
 
-  @media (min-width: 1044px) {
-    .container {
-        width: 100%;
-        min-width: 1044px;
-    }
-
-    .header {
+@media (min-width: 1024px) {
+  header {
         height: 700px;
-        justify-content: flex-start;
-        background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object_B.png') center no-repeat;
-      }
-
-    .wrapper {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin-bottom: 112px;
-    }
-
-    .partners_button {
-        margin-bottom: 73px;
-    }
- 
-  } */
+  }
+}

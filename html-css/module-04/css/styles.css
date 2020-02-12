@@ -50,14 +50,21 @@ header {
 
 .navigation {
     width: 1100px;
-    margin: 50px auto 70px;
+    padding: 50px 0 70px;
 }
 
 .nav__menu {
     float: right;
+    margin: 0;
+    padding: 0;
 }
 
 .nav__menu--item {
+    display: inline-block;
+}
+
+.nav__menu--item-link {
+    display: block;
     margin: 0 0 0 15px;
     color: #0f0101;
     font-family: "Open Sans", sans-serif;
@@ -68,7 +75,7 @@ header {
     text-decoration: none;
 }
 
-.nav__menu--item:hover {
+.nav__menu--item-link:hover {
     color: #1abc9c;
 }
 
@@ -86,6 +93,7 @@ main {
 }
 
 .title {
+    margin: 0;
     color: #515151;
     font-family: "Roboto - Black", sans-serif;
     font-size: 48px;
@@ -106,6 +114,7 @@ main {
 
 .products {
     padding-left: 42px;
+    margin-bottom: 40px;
 }
 
 .product {
