@@ -1,16 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTAINER */
+
+.container {
+  padding: 20px;
+}
 
 /* HEADER */
 
 header { 
- min-height: 540px;
- background: rgba(0, 0, 0, 0.9) url('../img/Vector_Smart_Object.png') center 100% no-repeat;
+ min-height: 550px;
+ background: rgba(0, 0, 0, 0.9) url('../img/Vector\ Smart\ Object@3X.png') center 100% no-repeat;
  background-size: cover;
 }
 
 /* LOGO */
 
 .logo {
-/*   background-color: lightgrey; */
+  margin: 0;
+  margin-bottom: 38px;
+  padding: 0;
 }
 
 .logo__link {
@@ -19,12 +31,19 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
-  }
+}
+
+.logo__link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* REGISTRATION */
 
 .registration {
-/*   background-color: grey; */
+  margin: 0;
+  margin-bottom: 115px;
+  padding: 0;
 }
 
 .registration__link {
@@ -45,23 +64,98 @@ header {
   border: 2px solid #ffffff;
   transition: .2s;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   }
   
 .registration__link::first-letter {
-    text-transform: capitalize;
+  text-transform: capitalize;
   }
+
+/* TITLE */
+
+.title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.title__name {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -1.5px;
+  width: 286px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title__description {
+  margin: 0;
+  margin-bottom: 18px;
+  color: #ffffff;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 18px;
+  width: 240px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.title__link-wrapper {
+  width: 280px;
+  height: 40px;
+  background-color: #ff4e50;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.title__link-wrapper:hover {
+  background-color: #ec3b3e;
+}
+
+.title__link {
+  display: block;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.title__link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
 
 /* /HEADER */
 
 @media (min-width: 768px) {
-  header {
-        height: 700px;
+
+  .container {
+    width: 670px!important;
+    padding: 36px;
   }
+
+  header {
+    height: 700px;
+  }
+
+  .registration {
+    margin: 0;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
 }
 
 @media (min-width: 1024px) {
-  header {
-        height: 700px;
+  .container {
+    width: 940px!important;
   }
 }
