@@ -12,29 +12,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <!-- HEADER -->
-<header>
+  <!-- HEADER -->
+<header class="header">
     <!-- CONTAINER -->
    <div class="container">
     <!-- ROW -->
-     <div class="row d-flex flex-column-reverse flex-md-row">
+     <div class="row registration__row d-flex flex-column-reverse flex-md-row">
        <div class="logo col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
          <a href="/" class="logo__link">URLAUBSGLÜCK</a>
        </div>
        <div class="registration col-md-6 d-flex justify-content-center justify-content-md-end">
-         <a href="/" class="registration__link">log in</a>
-         <a href="/" class="registration__link">sign up</a>
+         <a href="/" class="registration__link text-center">log in</a>
+         <a href="/" class="registration__link text-center">sign up</a>
        </div>
      </div>
      <!-- /ROW -->
+
+     <!-- ROW - EMPTY -->
+     <div class="row d-12">
+      <div class="empty__container"></div>
+     </div>
+     <!-- /ROW - EMPTY -->
      
       <!-- ROW -->
      <div class="row d-flex flex-column">
-       <div class="title d-flex flex-column justify-content-center align-items-center">
-         <h1 class="title__name">Share your holiday dreams</h1>
-         <p class="title__description">And find the perfect partner to fullfill it</p>
-         <div class="title__link-wrapper">
-           <a href="/" class="title__link">Find your holiday partner</a>
+       <div class="header__title d-flex flex-column justify-content-center align-items-center text-center">
+         <h1 class="header__title--name">Share your holiday dreams</h1>
+         <p class="header__title--description text-center">And find the perfect partner to fullfill it</p>
+         <div class="header__title--link-wrapper">
+           <a href="/" class="header__title--link">Find your holiday partner</a>
          </div>
        </div>
      </div>
@@ -42,6 +48,47 @@
     </div>
     <!-- /CONTAINER -->
 </header>
-    <!-- /HEADER -->
+  <!-- /HEADER -->
+
+  <!-- MAIN -->
+<main class="main">
+  <!-- CONTAINER -->
+  <div class="container">
+    <!-- ROW -->
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+      <div class="main__title">
+        <h2 class="main__title--name text-center">Meet a partner for your best holiday</h2>
+      </div>
+      <ul class="partners d-flex flex-column flex-md-row flex-wrap justify-content-center justify-content-md-between">
+        <li class="profile d-flex flex-column align-items-center order-md-1">
+          <div class="profile__photo profile__photo--pic-1 d-flex align-items-end flex-row-reverse"><div class="profile__photo--label profile__photo--label-1"></div></div>
+          <span class="profile__name">Bradley Hunter</span>
+          <span class="profile__info">Based in Chicago. I love playing tennis and loud music.</span>
+        </li>
+        <li class="profile d-flex flex-column align-items-center order-md-3">
+          <div class="profile__photo profile__photo--pic-2 d-flex align-items-end flex-row-reverse"><div class="profile__photo--label profile__photo--label-2"></div></div>
+          <span class="profile__name">Lucas Marsha</span>
+          <span class="profile__info">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</span>
+        </li>
+        <li class="profile d-flex flex-column align-items-center order-md-2">
+          <div class="profile__photo profile__photo--pic-3 d-flex align-items-end flex-row-reverse"><div class="profile__photo--label profile__photo--label-3"></div></div>
+          <span class="profile__name">Heather Walker</span>
+          <span class="profile__info">I'm a happy person that loves cats and climbing on mountains.</span>
+        </li>
+        <li class="profile d-flex flex-column align-items-center order-md-4">
+          <div class="profile__photo profile__photo--pic-4 d-flex align-items-end flex-row-reverse"><div class="profile__photo--label profile__photo--label-4"></div></div>
+          <span class="profile__name">Bradley Hunter</span>
+          <span class="profile__info">Based in Chicago. I love playing tennis and loud music.</span>
+        </li>
+      </ul>
+      <div class="profile__search--wrapper text-center align-self-center">
+        <a href="/" class="profile__search--link">See other partners</a>
+      </div>
+    </div>
+    <!-- /ROW -->
+  </div>
+  <!-- /CONTAINER -->
+</main>
+  <!-- /MAIN -->
 </body>
 </html>
