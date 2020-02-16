@@ -273,9 +273,6 @@
     padding: 36px;
   }
   /* REGISTRATION */
-  .registration__row {
-    max-width: 670px;
-  }
 
   .registration {
     margin: 0;
@@ -323,15 +320,7 @@
 }
 
 @media (min-width: 1024px) {
-  /* HEADER */
-
-  /* REGISTRATION */
-  .registration__row {
-    max-width: 940px;
-  }
-
-  /* MAIN */
-
+  
   /* PARTNERS */
   .partners {
     max-width: 914px;
