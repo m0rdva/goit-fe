@@ -1,0 +1,352 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+.header {
+  padding-top: 28px;
+  background: linear-gradient(180deg, rgba(233,130,131,0.9) 0%, rgba(240,217,138,0.9) 100%), url(../img/Layer\ 15@1X.png) center no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.header__title--wrapper {
+  margin: auto;
+  width: 800px;
+}
+
+.header__title {
+  padding: 0;
+  margin: 0;
+  opacity: 0.9;
+  color: #FFFFFF;
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  font-weight: lighter;
+  font-size: 72px;
+  text-align: center;
+}
+
+.header__title--welcome {
+  padding: 0;
+  margin: 0;
+  opacity: 0.9;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation {
+    margin: auto;
+    display: flex;
+    margin-bottom: 125px;
+    max-width: 1210px;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-left: 10px;
+    text-decoration: none;
+    color:#ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size:30px;
+  }
+  
+  .nav_menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    width: 491px;
+    height: 26px;
+  }
+  
+  .menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    transition-duration: 0.2s; 
+  }
+  
+  .menu:not(:first-of-type) {
+    padding-left: 55px;
+  }
+  
+  .menu:hover {
+    color: #FCE38A;
+    transition-duration: 0.2s;
+  }
+  
+  .menu::after {
+    display: flex;
+    content: "";
+    height: 4px;
+    width: 100%;
+    margin-top: 6px;
+    background: transparent;
+    transition-duration: 0.2s;
+  }
+  
+  .menu:hover::after {
+    background: #FCE38A;
+    transition-duration: 0.2s;
+  }
+  
+  .main {
+    padding-top: 40px;
+    max-width: 1210px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+
+  .title:first-of-type {
+    margin-bottom: 111px;
+  }
+  
+  .title_top {
+    margin: 0 0 11px;
+    color:#333333;
+    font-family: 'Kaushan Script', cursive, sans-serif;
+    font-size:24px;
+  }
+  
+  .title_main {
+    margin: 0 0 34px;
+    color:#333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .title_main::after {
+    display: flex;
+    margin-top: 21px;
+    content: "";
+    width: 64px;
+    height: 4px;
+    background-color: #F38181;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service_card {
+    margin: 0 0 50px;
+    padding-right: 3px;
+    width: 327px;
+    height: 70px;
+    text-align: justify;
+  }
+  
+  .icon_wrapper {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 33px;
+    height: 33px;
+    clear: both;
+  }
+  
+  .service_title {
+    margin: 0 0 15px;
+    color:#333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  
+  .service_description {
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  
+  .description {
+    margin-bottom: 92px;
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+
+  .team {
+    display: flex;
+    margin-bottom: 122px;
+    justify-content: space-around;
+  }
+
+  .main::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+  }
+
+  .team_card {
+    position: relative;
+    margin: 10px;
+    width: 381px;
+    height: 471px;
+    background-color: #95E1D3;
+  }
+  
+  .img_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    transition: 0.2s;
+  }
+  
+  .img_wrapper.card_1 {
+    background: url("../img/Layer_16.png");
+  }
+  
+  .img_wrapper.card_2 {
+    background: url("../img/Layer_19.png");
+  }
+  
+  .img_wrapper.card_3 {
+    background: url("../img/Layer_18.png");
+  }
+  
+  .team_card:hover .img_wrapper {
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .social_media_links {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.2s;
+    background: linear-gradient(#ed8889, #eed787);
+  }
+  
+  .team_card:hover .social_media_links {
+      top: -10px;
+      left: -10px;
+      opacity: 0.9;
+  }
+  
+  .media_link {
+    margin-right: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 57px;
+    height: 57px;
+    background: #fce38a;
+  }
+  
+  .media_link:hover {
+    background: #95e1d3;
+  }
+  
+  .employee_name {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    bottom: -31px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  
+  .employee_position {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: -56px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .footer {
+    max-width: 1210px;
+    margin: 10px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .copyright {
+    width: 100%;
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+  
+  .developer_link {
+    color: #F38181;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .fake_input {
+    display: flex;
+  }
+  
+  .email {
+    width: 220px;
+    height: 31px;
+    padding: 8px 0 0 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 15px;
+    color: #cccccc;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .subscribe {
+    width: 151px;
+    height: 41px;
+    color: #FFFFFF;
+    background: #95E1D3;
+    text-transform: uppercase;
+    border: none;
+  }
