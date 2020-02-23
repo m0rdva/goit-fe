@@ -3,66 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid container-fluid--header">
-    <header class="container">
-            <nav class="navigation">
-                <a href="/" class="logo" alt="mart">mart</a>
-                <a href="#" class="nav__menu">contact us</a>
-                <a href="#" class="nav__menu">blog</a>
-                <a href="#" class="nav__menu">shop</a>
-                <a href="#" class="nav__menu">page</a>
-                <a href="#" class="nav__menu">about us</a>
-                <a href="#" class="nav__menu">home</a>
-            </nav>
-    </header>
-    </div>
-    <div class="container-fluid container-fluid--main">
-    <main class="container">
-        <div class="slide"><div class="slide_title"><h1>AFFORDABLE PARIS TOURS</h1><span>CITY TOURS / TOUR TICKETS / TOUR GUIDES</span>
-        </div><div class="rectangle rct_left"><img src="./img/white-arrow-left.png" alt="arrow"></div>
-        <div class="rectangle rct_right"><img src="./img/white-arrow-right.png" alt="arrow"></div>
-        <div class="slide_layer"></div><div class="slide__image"></div>
-        </div>
-        <h2 class="title">new collection</h2>
-        <div class="products">
-            <div class="product 1"><div class="product__image"><div class="cart"></div>
-                    <div class="heart"><img src="./img/heart.png" alt="heart" class="heart__image"></div>
-                    <div class="arrows"><img src="./img/roud.png" alt="arrows" class="arrows__image"></div>
-                    <div class="time"><img src="./img/time.png" alt="time" class="time__image"></div>
-                    <div class="basket"><img src="./img/basket.png" alt="basket" class="basket__image"><span class="add__cart">add to cart</span></div>
-            <img src="./img/category-2.png" alt="blue shirt"></div><div class="name">blue shirt</div><div class="price">$10</div></div>
-            <div class="product 2"><div class="product__image"><div class="cart"></div>
-                    <div class="heart"><img src="./img/heart.png" alt="heart" class="heart__image"></div>
-                    <div class="arrows"><img src="./img/roud.png" alt="arrows" class="arrows__image"></div>
-                    <div class="time"><img src="./img/time.png" alt="time" class="time__image"></div>
-                    <div class="basket"><img src="./img/basket.png" alt="basket" class="basket__image"><span class="add__cart">add to cart</span></div>
-            <img src="./img/category-1.png" alt="belt"></div><div class="name">woman shirt</div><div class="price">$10</div></div>
-            <div class="product 3"><div class="product__image"><div class="cart"></div>
-                    <div class="heart"><img src="./img/heart.png" alt="heart" class="heart__image"></div>
-                    <div class="arrows"><img src="./img/roud.png" alt="arrows" class="arrows__image"></div>
-                    <div class="time"><img src="./img/time.png" alt="time" class="time__image"></div>
-                    <div class="basket"><img src="./img/basket.png" alt="basket" class="basket__image"><span class="add__cart">add to cart</span></div>
-            <img src="./img/category-4.png" alt="hat"></div><div class="name">yellow shirt</div><div class="price">$10</div></div>
-            <div class="product 4"><div class="product__image"><div class="cart"></div>
-                    <div class="heart"><img src="./img/heart.png" alt="heart" class="heart__image"></div>
-                    <div class="arrows"><img src="./img/roud.png" alt="arrows" class="arrows__image"></div>
-                    <div class="time"><img src="./img/time.png" alt="time" class="time__image"></div>
-                    <div class="basket"><img src="./img/basket.png" alt="basket" class="basket__image"><span class="add__cart">add to cart</span></div>
-            <img src="./img/category-3.png" alt="purse"></div><div class="name">cool lignere</div><div class="price">$10</div></div>
+    <!-- HEADER -->
+    <header class="header">
+        <!-- NAVIGATION -->
+        <nav class="navigation">
+            <div class="container clearfix">
+                <!-- LOGO -->
+                <div class="logo__wrapper">
+                    <a href="/" class="logo" alt="mart">mart</a>
+                </div>
+                <!-- MENU -->
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__item--link">home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">about us</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">page</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">shop</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">blog</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">contact us</a></li>
+                </ul>
             </div>
-    </main>
-    </div>
-    <div class="container-fluid container-fluid--footer">
-                <footer class="container">
-                    <div class="footer">All Rights Reserved © Dokan | Designed <a href="#" class="company__link">ThemenGraph</a></div>
-                </footer>
-    </div>
- </body>
- </html>
-        
+        </nav>
+        <!-- /NAVIGATION -->
+        <!-- SLIDER SECTION -->
+        <section>
+            <div class="slider__field">
+                <div class="container">
+                    <div class="slider__title">
+                        <h1 class="slider__title--item">affordable paris tours</h1>
+                        <span class="slider__title--description">city tours / tour tickets / tour guides</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    
+</body>
+</html>
