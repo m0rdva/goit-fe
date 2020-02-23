@@ -1,17 +1,9 @@
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-header {
-    text-align: center;
-    width: 100%;
-}
+/* BODY */
 
 .container {
     display: inline-block;
     text-align: center;
-    width: 100%;
+    max-width: 1200px;
     background: white;
 }
 
@@ -22,6 +14,10 @@ header {
 }
 
 /* HEADER - START */
+.header {
+    width: 100%;
+    text-align: center;
+}
 
 .logo {
     display: inline-block;
@@ -49,7 +45,7 @@ header {
 }
 
 .navigation {
-    width: 1100px;
+    width: 85%;
     padding: 50px 0 70px;
 }
 
@@ -88,8 +84,8 @@ header {
 /* MAIN - START */
 
 main {
-    text-align: center;
     width: 100%;
+    text-align: center;
 }
 
 .title {
@@ -122,6 +118,7 @@ main {
     margin: 0 15px 30px;
     width: 250px;
     height: 324px;
+    list-style-type: none;
     background-color: #e9f0fd;
 }
 
@@ -183,35 +180,26 @@ main {
     opacity: 0.44;
 }
 
-.articles {
-    padding-left: 35px;
-}
+/* ARTICLES */
 
 .article {
     float: left;
     width: 350px;
     height: 495px;
-    margin: 40px 15px auto;
-}
-
-.article__image__wrapper {
-    width: 350px;
-    height: 260px;
-    text-align: center;
-    overflow: hidden;
+    margin: 40px 5px auto 15px;
 }
 
 .article__image {
-    width: 347px;
+    width: 350px;
     height: 261px;
+    margin-bottom: 14px;
 }
 
 .article__title {
     width: 300px;
-    height: 44px;
     color: #555252;
     margin: 0;
-    margin-top: 14px;
+    margin-bottom: 43px;
     font-family: "Open Sans - Semibold", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -231,9 +219,8 @@ main {
 
 .article__content {
     width: 335px;
-    height: 66px;
     margin: 0;
-    margin-top: 43px;
+    margin-bottom: 14px;
     color: #555252;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -244,21 +231,23 @@ main {
     overflow: hidden;
 }
 
-.btn {
+.article__link--wrapper{
     width: 160px;
     height: 51px;
-    margin-top: 16px;
-    background-color: #4ec6ab;
-    color: white;
-    padding: 1rem 2rem;
-    float: left;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: -0.32px;
+    text-align: center;
 }
 
-.btn:hover {
+.article__link {
+    padding: 10% 23%;
+    display: block;
+    float: left;
+    color: #ffffff;
+    background-color: #4ec6ab;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.article__link:hover {
     background-color: #42af98;
 }
 
