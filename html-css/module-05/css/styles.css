@@ -94,20 +94,33 @@ a {
 /* SLIDER SECTION */
 
 .slider__field {
+    position: relative;
     height: 600px;
     width: 100%;
     margin: 0;
     padding: 0;
-    padding-top: 220px;
-    background: #e9f0fd url("../img/slide4.png") no-repeat center center;
+    background: url("../img/slide4.png") no-repeat center center;
     background-size: cover;
 }
 
-.slider__title {
-    text-align: center;
+.slider__field--layer {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #000002;
+    opacity: 0.52;
 }
 
-.slider__title--item {
+.slider__item {
+    position: absolute;
+    z-index: 2;
+    top: 13.75rem;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.slider__item--title {
     margin: 0;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -116,10 +129,21 @@ a {
     text-transform: uppercase;
 }
 
-.slider__title--description {
+.tours__offers {
+    margin: 0;
+    padding: 0;
+}
+
+.tours__offers--item,
+.tours__offers--link {
+    display: inline-block;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: lighter;
     text-transform: uppercase;
+}
+
+.tours__offers--link:hover {
+    color: rgb(133, 214, 197);
 }
