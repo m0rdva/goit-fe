@@ -6,6 +6,10 @@ h2 {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 a {
     display: block;
     text-decoration: none;
@@ -61,7 +65,6 @@ a {
     margin: 0;
     padding: 0;
     float: right;
-    list-style-type: none;
 }
 
 .menu__item {
@@ -182,4 +185,43 @@ a {
     right: 0;
     background: #1ABC9C url(../img/white-arrow-right.png) no-repeat center center;
     background-size: 40%;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.main {
+    background-color: #E9F0FD;
+}
+
+.content {
+    padding-top: 102px;
+}
+
+.content__title {
+    text-align: center;
+    margin-bottom: 119px;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content__title::after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 32px auto 0;
+}
+
+/* PRODUCT LIST */
+
+.product__item {
+    width: 256px;
+    height: 323px;
 }
