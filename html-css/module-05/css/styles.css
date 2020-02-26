@@ -114,14 +114,17 @@ a {
 
 .slider__item {
     position: absolute;
-    z-index: 2;
-    top: 13.75rem;
+    z-index: 3;
+    top: 44%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
     width: 780px;
     margin: 0 auto;
 }
 
 .slider__item--title {
     margin: 0;
+    margin-bottom: 20px;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 60px;
@@ -146,4 +149,37 @@ a {
 
 .tours__offers--link:hover {
     color: rgb(133, 214, 197);
+}
+
+/* SLIDER ARROWS */
+
+.slider__arrows--box {
+    z-index: 2;
+    position: relative;
+    max-width: 1122px;
+    height: 600px;
+}
+
+.slider__arrow {
+    position: absolute;
+    top: 38%;
+    width: 105px;
+    height: 105px;
+    opacity: .8;
+}
+
+.slider__arrow:hover {
+    opacity: 1;
+}
+
+.slider__arrow--left {
+    left: 0;
+    background: #1ABC9C url(../img/white-arrow-left.png) no-repeat center center;
+    background-size: 40%;
+}
+
+.slider__arrow--right {
+    right: 0;
+    background: #1ABC9C url(../img/white-arrow-right.png) no-repeat center center;
+    background-size: 40%;
 }
