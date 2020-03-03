@@ -6,61 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
-    <div class="navigation container">
-        <a href="/" class="logo">Golden</a>
-        <div class="nav_menu">
-        <a href="#" class="menu">home</a>
-        <a href="#" class="menu">services</a>
-        <a href="#" class="menu">portfolio</a>
-        <a href="#" class="menu">about</a>
-        <a href="#" class="menu">contact</a>
-        </div>
+  <header class="header">
+    <!-- HEADER -->
+    <nav class="navigation container">
+      <a href="/" class="logo">Golden</a>
+      <ul class="nav_menu">
+        <li class="menu__item"><a href="#" class="menu__item--link">home</a></li>>
+        <li class="menu__item"><a href="#" class="menu__item--link">services</a></li>>
+        <li class="menu__item"><a href="#" class="menu__item--link">portfolio</a></li>>
+        <li class="menu__item"><a href="#" class="menu__item--link">about</a></li>>
+        <li class="menu__item"><a href="#" class="menu__item--link">contact</a></li>>
+      </ul>
+    </nav>
+  </header>
+  <!-- /HEADER -->
+  <!-- MAIN -->
+  <main class="main container">
+    <div class="title">
+      <h1 class="title_name">services</h1>
+      <span class="title_description">Proin iaculis purus consequat sem cure. </span>
     </div>
-    <div class="main container">
-        <div class="title">
-          <h1 class="title_name">services</h1>
-          <span class="title_description">Proin iaculis purus consequat sem cure. </span>
-        </div>
-        <div class="content">
-          <div class="service_card">
-            <div class="label label_cart"></div>
-            <h3 class="card_title">E-Commerce</h3>
-            <p class="card_description">Proin iaculis purus consequat sem cure 
-      digni ssim. Donec porttitora entum suscipit 
-      aenean rhoncus posuere odio in tincidunt.</p>
-          </div>
-          <div class="service_card">
-            <div class="label label_web"></div>
-            <h3 class="card_title">Responsive Web</h3>
-            <p class="card_description">Proin iaculis purus consequat sem cure 
-      digni ssim. Donec porttitora entum suscipit 
-      aenean rhoncus posuere odio in tincidunt.</p>
-          </div>
-          <div class="service_card">
-            <div class="label label_lock"></div>
-            <h3 class="card_title">Web Security</h3>
-            <p class="card_description">Proin iaculis purus consequat sem cure 
-      digni ssim. Donec porttitora entum suscipit 
-      aenean rhoncus posuere odio in tincidunt.</p>
-          </div>
-        </div>
-    </div>
+    <section class="content">
+      <div class="service_card">
+        <div class="label label_cart"></div>
+        <h3 class="card_title">E-Commerce</h3>
+        <p class="card_description">Proin iaculis purus consequat sem cure 
+  digni ssim. Donec porttitora entum suscipit 
+  aenean rhoncus posuere odio in tincidunt.</p>
+      </div>
+      <div class="service_card">
+        <div class="label label_web"></div>
+        <h3 class="card_title">Responsive Web</h3>
+        <p class="card_description">Proin iaculis purus consequat sem cure 
+  digni ssim. Donec porttitora entum suscipit 
+  aenean rhoncus posuere odio in tincidunt.</p>
+      </div>
+      <div class="service_card">
+        <div class="label label_lock"></div>
+        <h3 class="card_title">Web Security</h3>
+        <p class="card_description">Proin iaculis purus consequat sem cure 
+  digni ssim. Donec porttitora entum suscipit 
+  aenean rhoncus posuere odio in tincidunt.</p>
+      </div>
+    </section>
     <div class="footer container">
-        <div class="title">
-          <h1 class="footer_title title_name">Contact us</h1>
-          <span class="title_description">Proin iaculis purus consequat sem cure. </span>
+      <div class="title">
+        <h1 class="footer_title title_name">Contact us</h1>
+        <span class="title_description">Proin iaculis purus consequat sem cure. </span>
+      </div>
+      <form class="contact_form" action="#" method="post">
+        <div class="contact_field">
+          <input type="text" name="name" id="" placeholder="your Name *">
+          <input type="email" name="email" placeholder="your e-mail *">
+          <input type="text" name="subject" id="" placeholder="subject">
         </div>
-        <form class="contact_form" action="#" method="post">
-          <div class="contact_field">
-            <input type="text" name="name" id="" placeholder="your Name *">
-            <input type="email" name="email" placeholder="your e-mail *">
-            <input type="text" name="subject" id="" placeholder="subject">
-          </div>
-          <textarea class="message_field" name="message" id="" placeholder="Your message *"></textarea>
-            <input class="submit" type="submit" value="send message">
-        </form>
+        <textarea class="message_field" name="message" id="" placeholder="Your message *"></textarea>
+        <input class="submit" type="submit" value="send message">
+      </form>
     </div>
+  </main>
 </body>
-</html>
+</html
