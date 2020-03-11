@@ -236,7 +236,6 @@ a {
 
 .product__item:not(:last-of-type) {
     margin-right: 28px;
-    margin-bottom: 20px;
 }
 
 .product__item:hover .product__item--layer,
@@ -279,8 +278,10 @@ a {
     box-sizing: border-box;
 }
 
-.product__item li:hover {
-    background-color: #1abc9c;
+.button__wrapper {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -293,6 +294,13 @@ a {
     margin-bottom: 7px;
     box-sizing: border-box;
     border: 1px solid #ffffff;
+}
+
+.heart:hover, 
+.arrows:hover,
+.clock:hover,
+.cart:hover {
+    background-color: #1abc9c;
 }
 
 .heart {
@@ -390,12 +398,13 @@ a {
 .footer {
     background-color: #323232;
     height: 90px;
+    box-sizing: border-box;
+    padding: 38px;
 }
 
 .footer__text {
     margin: 0;
     padding: 0;
-    padding-top: 38px;
     color: #fefefe;
     font-family: "Open Sans", sans-serif;
     text-align: center;
